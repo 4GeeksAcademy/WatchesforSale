@@ -1,0 +1,68 @@
+
+body{
+    /* border: 8px green solid; */
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    /* border: 8px blue solid; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10pt;
+    background-color: rgba(161, 161, 14, 0.563);
+}
+
+.right-group{
+    display: flex;
+    align-items: center;
+}
+
+.hamburger{
+    padding-left: 5pt;
+}
+
+.hero-section{
+    /* border: 5px rgb(255, 191, 0) solid;   */
+    background-color: rgb(219, 219, 87);
+    padding: 10px;
+}
+
+.products{
+    /* border: 8px pink solid; */
+    display: flex;
+    justify-content: normal;
+    background-color: rgba(244, 244, 192, 0.558);
+}
+
+img{
+    width: 70%;
+    border-radius: 10%;
+}
+
+.prod1, .prod2, .prod3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  gap: 10px;             
+  padding: 15px;
+}
+/* .prod2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  gap: 10px;             
+  padding: 15px;
+}
+.prod3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  gap: 10px;             
+  padding: 15px;
+} */
+
+.stars {
+    display: flex;
+}
+
